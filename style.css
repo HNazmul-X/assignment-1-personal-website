@@ -19,14 +19,24 @@ p{
 h1{
     font-size:50px;
     font-family: 'Bebas Neue', cursive;
+    font-weight:initial;
+    color:#3E415F;
 }
 h2{
     font-size:40px;
     font-family: 'Bebas Neue', cursive;
     font-weight: initial;
+    color:#3E415F;
+}
+h3{
+    font-size:23px;
+    font-family:'Roboto', sans-serif;
 }
 body{
     font-family: 'Saira Condensed', sans-serif;
+}
+.spacer{
+    padding:50px;
 }
 .navbar{
     text-align: right;
@@ -39,6 +49,9 @@ body{
     text-decoration: none;
     padding:10px 25px;
     display: inline-block;
+    font-family:'Roboto', sans-serif;
+    font-size:17px;
+    color:#3E415F;
 }
 .half-width-desc{
     width:38%;
@@ -82,9 +95,81 @@ body{
     border-radius:7px;
 }
 /* about me section */
+.about-me{
+    height: 530px;
+    margin-bottom: 100px;
+}
 .about-me .half-width-desc{
     margin-top:80px;
 }
 .about-me .half-width-desc p{
     margin:25px 0px;
+}
+
+/* letest working project */
+.tird-one-width{
+    width:29.33333333333333%;
+    margin:2%;
+    float: left;
+    box-shadow: 1px 10px 10px #dedede;
+    border-radius: 30px;
+    height: 350px;
+}
+.tird-one-width img{
+    width:100%;
+}
+.tird-one-width .desc{
+    padding:20px;
+}
+.tird-one-width .desc h3{
+    margin:10px 0px;
+    color:#3E415F;
+}
+.title{
+    margin:50px 0px;
+    text-align:center;
+}
+/* work inquery section start form here */
+.work-inquery{
+    /* margin:20px 0px; */
+}
+.work-inquery .desc {
+    width:700px;
+    background:url(images/Group_33094_1-min.webp);
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding:60px;
+    border-radius:20px;
+    margin:auto;
+    margin-bottom:50px;
+}
+.work-inquery .desc h1{
+    float: left;
+    line-height: 47px;
+    color:white;
+    font-size:60px;
+}
+.work-inquery .desc button{
+    display:inline-block;
+    margin: 0px 0px 0px 270px;;
+}
+/* stay connected */
+.stay-conected{
+    text-align:center;
+    margin-bottom:40px;
+}
+.stay-conected h3{
+    font-family:'Bebas Neue', cursive;
+    color:dimgray;
+    font-weight: initial;
+}
+.stay-conected h2{
+    font-family: 'Roboto', sans-serif;
+    margin:10px 0px;
+    font-weight:600;
+    color:#3E415F;
+}
+.stay-conected .icons img{
+    width:40px;
+    margin:10px;
 }

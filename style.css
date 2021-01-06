@@ -32,11 +32,14 @@ h3{
     font-size:23px;
     font-family:'Roboto', sans-serif;
 }
+h4{
+    font-size:20px;
+}
 body{
     font-family: 'Saira Condensed', sans-serif;
 }
 .spacer{
-    padding:50px;
+    padding:40px;
 }
 .navbar{
     text-align: right;
@@ -52,6 +55,9 @@ body{
     font-family:'Roboto', sans-serif;
     font-size:17px;
     color:#3E415F;
+}
+.top-profile-section{
+    padding-top:20px;
 }
 .half-width-desc{
     width:38%;
@@ -75,7 +81,7 @@ body{
     float: left;
 }
 .half-width-img img{
-    width:80%;
+    width:75%;
     
 }
 .half-width-img.top{
@@ -130,9 +136,7 @@ body{
     text-align:center;
 }
 /* work inquery section start form here */
-.work-inquery{
-    /* margin:20px 0px; */
-}
+
 .work-inquery .desc {
     width:700px;
     background:url(images/Group_33094_1-min.webp);
@@ -172,4 +176,50 @@ body{
 .stay-conected .icons img{
     width:40px;
     margin:10px;
+}
+/* education & experience */
+.half-width-card{
+    width:46%;
+    margin:1%;
+    padding: 20px 1%;
+    color:white;
+    float: left;
+    border-radius:25px;
+    box-shadow: 5px 12px 15px #ffc3c3;
+}
+.half-width-card h3{
+    text-align:center;
+    padding:20px;
+    color:white;
+}
+.half-width-card li {
+    list-style: none;
+}
+.half-width-card p{
+    color:#dedede;
+    margin-bottom:20px;
+}
+.half-width-card h4{
+    color:white;
+}
+
+.half-width-card.left{
+
+    background:url(images/card-1.svg), #fa8d72;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: bottom;
+    
+}
+.half-width-card.right{
+    
+    background:url(images/card-2.svg) , #fa8d72;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: bottom;
+    
+}
+.stay-conected .copywrite{
+    padding:20px;
+    font-size:13px;
 }
